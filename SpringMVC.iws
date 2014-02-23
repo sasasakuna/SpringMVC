@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8ff228-7567-4360-be96-53432c0d16ba" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/StudentController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/students.jsp" />
       <change type="DELETED" beforePath="D:\Users\L\IdeaProjects\SpringMVC\src\main\java\com.thoughtworks.nightschool\HomeController" afterPath="" />
       <change type="DELETED" beforePath="D:\Users\L\IdeaProjects\SpringMVC\src\main\webapp\WEB-INF\spring\sample-servlet" afterPath="" />
       <change type="DELETED" beforePath="D:\Users\L\IdeaProjects\SpringMVC\src\main\webapp\WEB-INF\view\home" afterPath="" />
       <change type="DELETED" beforePath="D:\Users\L\IdeaProjects\SpringMVC\src\main\webapp\WEB-INF\web" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMVC.iws" afterPath="$PROJECT_DIR$/SpringMVC.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="D:\Users\L\IdeaProjects\SpringMVC\src\main\java\com.thoughtworks.nightschool\SampleController.java" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/NameController.java" />
+      <change type="MOVED" beforePath="D:\Users\L\IdeaProjects\SpringMVC\src\main\webapp\WEB-INF\spring\sample-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sample-servlet.xml" />
     </list>
     <ignored path="SpringMVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +24,10 @@
     <file path="/sample-servlet" changelist="ad8ff228-7567-4360-be96-53432c0d16ba" time="1393146182374" ignored="false" />
     <file path="/HomeController" changelist="ad8ff228-7567-4360-be96-53432c0d16ba" time="1393146240799" ignored="false" />
     <file path="/Dummy.txt" changelist="ad8ff228-7567-4360-be96-53432c0d16ba" time="1393153090308" ignored="false" />
+    <file path="/NameController.java" changelist="ad8ff228-7567-4360-be96-53432c0d16ba" time="1393154299178" ignored="false" />
+    <file path="/StudentController.java" changelist="ad8ff228-7567-4360-be96-53432c0d16ba" time="1393162707460" ignored="false" />
+    <file path="/students.jsp" changelist="ad8ff228-7567-4360-be96-53432c0d16ba" time="1393162789621" ignored="false" />
+    <file path="/Student.java" changelist="ad8ff228-7567-4360-be96-53432c0d16ba" time="1393162889227" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +88,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SampleController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/SampleController.java">
+      <file leaf-file-name="NameController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/NameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="41" selection-start="233" selection-end="233" vertical-scroll-proportion="0.13688761">
+            <state line="9" column="40" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="59" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="students.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/students.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="50" selection-start="276" selection-end="276" vertical-scroll-proportion="0.30115274">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sample-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="29" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,6 +171,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/sample-servlet" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/HomeController" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/SampleController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/NameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/students.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/Student.java" />
       </list>
     </option>
   </component>
@@ -122,8 +185,8 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
-    <option name="y" value="283" />
+    <option name="x" value="11" />
+    <option name="y" value="288" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
@@ -273,36 +336,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -340,7 +373,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="copyright" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -352,6 +385,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\L\IdeaProjects\SpringMVC\src\main\webapp\WEB-INF" />
       <recent name="D:\Users\L\IdeaProjects\SpringMVC\src\main\java\com.thoughtworks.springconfig" />
       <recent name="D:\Users\L\IdeaProjects\SpringMVC\src\main\java" />
       <recent name="D:\Users\L\IdeaProjects\SpringMVC\src\main\webapp\WEB-INF\pages" />
@@ -448,7 +482,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="283" width="1456" height="876" extended-state="0" />
+    <frame x="11" y="288" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -537,9 +571,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/SampleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sample-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="233" selection-end="233" vertical-scroll-proportion="0.13688761">
+        <state line="10" column="29" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/NameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="59" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks.nightschool/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/students.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="276" selection-end="276" vertical-scroll-proportion="0.30115274">
           <folding />
         </state>
       </provider>

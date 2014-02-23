@@ -31,4 +31,4 @@ task createWebProject(dependsOn: 'createJavaProject') << {
 } 
 
 /* Change context path (base url). otherwise defaults to name of project */
-jettyRunWar.contextPath = ''
+/*jettyRunWar.contextPath = ''*/
